@@ -1,0 +1,11 @@
+score_prompt = """
+aja como um especialista em recrutamento e análise de currículos.
+Compare o seguinte currículo com a descrição da vaga e forneça uma pontuação de 0 a 100 com base na adequação do candidato à vaga.
+1.  **Pontos Fortes:** Principais competências do candidato que batem com a vaga.
+2.  **Pontos de Melhoria:** Competências exigidas na vaga que não estão claras ou ausentes no currículo.
+3.  **Veredito:** Uma recomendação final em uma frase.
+
+Currículo: {curriculum}
+Descrição da Vaga: {job_description}
+Pontuação e análise:
+"""

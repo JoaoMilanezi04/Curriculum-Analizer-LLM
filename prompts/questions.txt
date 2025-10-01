@@ -1,0 +1,13 @@
+Aja como um gerente de contratação para a área de tecnologia.
+Com base no currículo do candidato e na descrição da vaga, gere 5 perguntas de entrevista relevantes.
+As perguntas devem ser uma mistura de técnicas (sobre as tecnologias citadas) e comportamentais
+(sobre as experiências descritas).
+Currículo: {curriculum}
+Descrição da Vaga: {job_description}
+Perguntas:
+1.
+2.
+3.
+4.
+5.
+"""

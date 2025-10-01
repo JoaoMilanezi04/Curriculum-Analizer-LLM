@@ -1,0 +1,8 @@
+summary_template = """
+aja como um especialista em recrutamento e análise de currículos.
+Analise o seguinte currículo e forneça um resumo das principais habilidades, nível de experiência e pontos fortes.
+
+Currículo: {curriculum}
+
+resumo do candidato:
+"""

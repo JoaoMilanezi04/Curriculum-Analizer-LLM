@@ -1,0 +1,70 @@
+EXEMPLO DE VAGA
+
+Engenheiro de Machine Learning (Foco em NLP)
+
+Empresa: InovaTech Solutions S.A.
+Local: Remoto (Brasil)
+
+Descrição da Posição:
+Na InovaTech, estamos construindo a próxima geração de soluções de análise de dados baseadas em IA. Buscamos um Engenheiro de Machine Learning apaixonado por Processamento de Linguagem Natural (NLP) para se juntar à nossa equipe. Você será responsável por projetar, treinar, e implantar modelos de ML que entendem e processam a linguagem humana em grande escala, impactando diretamente nossos produtos.
+
+Responsabilidades:
+- Desenvolver e manter modelos de NLP para tarefas como classificação de texto, análise de sentimentos, reconhecimento de entidades nomeadas (NER) e sumarização.
+- Processar e preparar grandes volumes de dados de texto para treinamento de modelos.
+- Colaborar com as equipes de engenharia de software e de produto para integrar os modelos em nossos sistemas.
+- Manter-se atualizado com as últimas pesquisas e técnicas em NLP e LLMs.
+- Implantar modelos em produção e monitorar sua performance.
+
+Requisitos Obrigatórios:
+- 3+ anos de experiência em Machine Learning ou Ciência de Dados.
+- Graduação em Ciência da Computação, Engenharia ou área correlata.
+- Proficiência avançada em Python e suas bibliotecas de ML (Scikit-learn, Pandas, NumPy).
+- Experiência sólida com frameworks de Deep Learning como TensorFlow ou PyTorch.
+- Experiência prática com bibliotecas de NLP (Hugging Face Transformers, NLTK, spaCy).
+- Conhecimento de SQL e bancos de dados.
+- Experiência com pelo menos um provedor de cloud (AWS, GCP ou Azure).
+
+Requisitos Desejáveis:
+- Mestrado ou Doutorado em área relacionada à IA.
+- Experiência com ferramentas de MLOps (Docker, MLflow, Kubeflow).
+- Experiência com o ecossistema de LLMs (LangChain, Fine-tuning).
+- Conhecimento de processamento de dados distribuído com Spark.
+
+---------------------------------------------------------------------------------------------------
+
+EXEMPLO DE CURRÍCULO (CV)
+
+Ana Carolina Oliveira
+Cientista de Dados | Machine Learning & NLP
+(11) 98765-4321 | ana.c.oliveira@email.com | linkedin.com/in/ana-oliveira-ds
+
+Resumo Profissional:
+Cientista de Dados com 4 anos de experiência, especializada na criação e implementação de modelos de Machine Learning para resolver problemas de negócio complexos. Possuo forte background em estatística e proficiência em Python, SQL e frameworks de NLP. Busco aplicar minhas habilidades em um ambiente desafiador de Engenharia de Machine Learning, focando em produtos de Processamento de Linguagem Natural.
+
+Experiência Profissional:
+
+Cientista de Dados Sênior | Dados & Cia (Jan 2022 - Presente)
+- Liderei um projeto de análise de sentimentos a partir de reviews de clientes, utilizando NLTK e Scikit-learn, que resultou em uma melhoria de 15% na identificação de pontos de atrito.
+- Desenvolvi um modelo de classificação de tickets de suporte com TensorFlow, automatizando o roteamento para as equipes corretas.
+- Criei e mantive pipelines de dados com Airflow e SQL para alimentar os modelos de ML.
+- Realizei o deploy de um modelo como uma API REST usando Flask e Docker em um ambiente AWS.
+
+Analista de Dados Pleno | Consultoria Valor (Jun 2020 - Dez 2021)
+- Desenvolvi dashboards em Tableau para visualização de KPIs de negócio.
+- Realizei análises ad-hoc complexas usando SQL avançado (PostgreSQL) para suportar decisões estratégicas da diretoria.
+- Criei scripts em Python para automatizar a coleta e limpeza de dados de fontes diversas.
+
+Educação:
+- Mestrado em Ciência da Computação (Ênfase em IA) - Unicamp (2018 - 2020)
+- Bacharelado em Estatística - USP (2014 - 2017)
+
+Habilidades Técnicas:
+- Linguagens: Python (Avançado), SQL (Avançado), R (Intermediário)
+- Machine Learning: Scikit-learn, TensorFlow, Keras, Pandas, NumPy, SciPy
+- NLP: NLTK, spaCy, Gensim
+- Cloud & DevOps: AWS (S3, EC2, SageMaker), Docker, Git, CI/CD (básico com Jenkins)
+- Bancos de Dados: PostgreSQL, MySQL, MongoDB
+- Ferramentas: Airflow, Tableau, Metabase, Jupyter Notebooks
+
+Projetos:
+- Classificador de Notícias Falsas: Projeto pessoal no GitHub utilizando um modelo treinado com TensorFlow para classificar artigos de notícias.
