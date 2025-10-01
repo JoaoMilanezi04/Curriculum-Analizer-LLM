@@ -1,76 +1,88 @@
 # Curriculum Analyzer LLM
 
-🤖 **Analisador de Currículos com Google Gemini**
+🤖 **Analisador de Currículos com Google Gemini e Streamlit**
 
-Um sistema inteligente que utiliza a API do Google Gemini para analisar currículos automaticamente, fornecendo:
-- Resumo detalhado das competências
-- Pontuação de adequação para vagas específicas
-- Perguntas de entrevista personalizadas
+Uma aplicação web inteligente que utiliza a API do Google Gemini para analisar currículos, fornecendo:
+- Resumo detalhado das competências do candidato.
+- Pontuação de adequação para uma vaga específica.
+- Perguntas personalizadas para a fase de entrevista.
 
 ## 🚀 Funcionalidades
 
-- **Análise Inteligente**: Avalia currículos usando IA avançada
-- **Pontuação Automática**: Score de 0-100 baseado na vaga
-- **Perguntas de Entrevista**: Gera perguntas técnicas e comportamentais
-- **Comparação com Vagas**: Identifica pontos fortes e áreas de melhoria
+- **Interface Web Interativa**: Front-end amigável construído com Streamlit.
+- **Análise Inteligente**: Avalia currículos usando o poder do Gemini 2.5-Flash.
+- **Pontuação Automática**: Gera um score de 0 a 100 baseado na compatibilidade com a vaga.
+- **Perguntas para Entrevista**: Cria perguntas técnicas e comportamentais relevantes.
+- **Comparação com Vagas**: Identifica pontos fortes e áreas de melhoria do candidato.
 
 ## 🛠️ Tecnologias
 
 - **Python** - Linguagem principal
-- **Google Gemini 2.5-Flash** - Modelo de IA
-- **LangChain** - Framework para LLM
+- **Streamlit** - Framework para a interface web
+- **Google Gemini 2.5-Flash** - Modelo de IA generativa
+- **LangChain** - Framework para desenvolvimento com LLMs
 - **python-dotenv** - Gerenciamento de variáveis de ambiente
 
 ## ⚙️ Configuração
 
-1. Clone o repositório
-2. Crie um ambiente virtual:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # Mac/Linux
-   ```
-3. Instale as dependências:
-   ```bash
-   pip install google-generativeai python-dotenv langchain langchain-google-genai
-   ```
-4. Configure sua chave API no arquivo `api.env`:
-   ```
-   GOOGLE_API_KEY=sua_chave_aqui
-   ```
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/JoaoMilanezi04/Curriculum-Analizer-LLM.git
+    cd Curriculum-Analizer-LLM
+    ```
 
-## 🎯 Uso
+2.  **Crie e ative um ambiente virtual:**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # No Mac/Linux
+    # venv\Scripts\activate   # No Windows
+    ```
 
-Execute o analisador:
-```bash
-python Backend/analizer.py
-```
+3.  **Instale as dependências:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Configure sua chave API:**
+    Crie um arquivo chamado `.env` na raiz do projeto e adicione sua chave:
+    ```
+    GOOGLE_API_KEY="sua_chave_secreta_aqui"
+    ```
+
+## 🎯 Como Executar
+
+1.  Verifique se o ambiente virtual está ativado.
+2.  Execute o aplicativo Streamlit pelo terminal:
+    ```bash
+    streamlit run src/app.py
+    ```
+3.  Abra o navegador no endereço local fornecido (geralmente `http://localhost:8501`).
 
 ## 📁 Estrutura do Projeto
 
 ```
 Curriculum-Analizer-LLM/
-├── Backend/
-│   └── analizer.py          # Código principal
-├── src/
-│   └── __init__.py
-├── api.env                  # Configurações da API
-├── .gitignore              # Arquivos ignorados
-└── README.md               # Este arquivo
+├── .env                     # Arquivo para chaves de API (não versionado)
+├── .gitignore               # Arquivos ignorados pelo Git
+├── README.md                # Documentação do projeto
+├── requirements.txt         # Dependências do Python
+├── prompts/                 # Arquivos de texto com os prompts para a IA
+│   ├── questions.txt
+│   ├── scoring.txt
+│   └── summary.txt
+└── src/                     # Código-fonte da aplicação
+    ├── app.py               # Interface do usuário com Streamlit
+    └── logic/
+        └── analyzer.py      # Lógica de análise com LangChain e Gemini
+    └── utils/
+        └── file_handler.py  # Utilitário para carregar arquivos
 ```
 
 ## 🔐 Segurança
 
-- Arquivo `api.env` está no `.gitignore`
-- Nunca commite suas chaves API
-- Use variáveis de ambiente para dados sensíveis
-
-## 📋 Exemplo de Saída
-
-O sistema gera:
-- **Resumo**: Análise completa das competências
-- **Pontuação**: Score de adequação à vaga
-- **Perguntas**: Questões para entrevista técnica
+- O arquivo `.env` que contém a chave da API é ignorado pelo Git (`.gitignore`) para evitar que segredos sejam expostos.
+- **Nunca** suba suas chaves de API ou outros dados sensíveis para repositórios públicos.
 
 ---
 
-⚡ **Desenvolvido com Google Gemini AI**
+⚡ **Desenvolvido com Google Gemini AI e Streamlit**
